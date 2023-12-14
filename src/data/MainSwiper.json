@@ -1,0 +1,13 @@
+{
+    "mainbanner": [
+        {
+            "background": "event1.png"
+        },
+        {
+            "background": "event2.png"
+        },
+        {
+            "background": "event3.png"
+        }
+    ]
+}

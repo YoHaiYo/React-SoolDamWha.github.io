@@ -232,6 +232,14 @@
   outline: none !important;
 }
 
+#hd li {
+  list-style: none;
+}
+
+.padtop {
+  padding-top: 290px;
+}
+
 
 
 
