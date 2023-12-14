@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import MSwipertext from './Mswipertext'
 
 
 
@@ -28,7 +29,9 @@ export default (props) => {
                 {
                     props.datasrc.map((el, idx) => {
                         return <SwiperSlide style={{ background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "550px", backgroundSize: "100%" }} key={idx}>
-
+                            <div className='effecttext'>
+                                <MSwipertext></MSwipertext>
+                            </div>
                         </SwiperSlide>
                     })
                 }
