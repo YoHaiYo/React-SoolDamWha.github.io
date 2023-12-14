@@ -3,6 +3,7 @@ import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import MSwipertext from './Mswipertext'
+import MSwipertext from './Mswipertext'
 
 
 
@@ -32,6 +33,8 @@ export default (props) => {
                             background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
                         }} key={idx}>
                             <div className='effecttext'>
+                                <MSwipertext></MSwipertext>
+                            </div>                            <div className='effecttext'>
                                 <strong>{`${el.strong}`}</strong>
                                 <p>{`${el.Mtext}`}</p>
                             </div>
