@@ -6,7 +6,7 @@ import Resist from './resist'
 
 function HD() {
     return (
-        <header id="hd" className='d-flex justify-content-center align-items-center fixed-top bg-white pt-5 border-bottom'>
+        <header id="hd" className='d-flex justify-content-center align-items-center fixed-top bg-white pt-5 border-bottom position-relative'>
             <div className='text-center container-lg'>
                 <h1 id='Logo'>
                     <a href="#">

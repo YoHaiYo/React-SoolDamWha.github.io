@@ -2,10 +2,10 @@ import React from 'react'
 
 function Resist() {
     return (
-        <div className=''>
-            <ul id="login" className='d-flex'>
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
+        <div>
+            <ul id="login" className='d-flex resistabs'>
+                <li className='me-5'><a href="#">로그인</a></li>
+                <li className='me-5'><a href="#">회원가입</a></li>
 
                 <li>
 

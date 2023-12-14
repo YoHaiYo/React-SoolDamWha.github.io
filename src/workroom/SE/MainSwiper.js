@@ -11,8 +11,8 @@ import MSwipertext from './Mswipertext'
 
 export default (props) => {
     return (
-        <div className='padtop'>
-            <Swiper
+        <div>
+            <Swiper id='promotionSwiper'
                 modules={[EffectFade, Autoplay]} effect="fade"
                 loop={true}
                 autoplay={{
@@ -28,9 +28,12 @@ export default (props) => {
             >
                 {
                     props.datasrc.map((el, idx) => {
-                        return <SwiperSlide style={{ background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "550px", backgroundSize: "100%" }} key={idx}>
+                        return <SwiperSlide style={{
+                            background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
+                        }} key={idx}>
                             <div className='effecttext'>
-                                <MSwipertext></MSwipertext>
+                                <strong>{`${el.strong}`}</strong>
+                                <p>{`${el.Mtext}`}</p>
                             </div>
                         </SwiperSlide>
                     })
