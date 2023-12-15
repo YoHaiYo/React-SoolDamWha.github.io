@@ -18,7 +18,7 @@ export default (props) => {
                 loop={true}
                 autoplay={{
                     delay: 2500,
-                    disableOnInteraction: false,
+
                 }}
 
                 spaceBetween={50}
@@ -36,6 +36,7 @@ export default (props) => {
                                 <strong>{`${el.strong}`}</strong>
                                 <p>{`${el.Mtext}`}</p>
                             </div>
+
                         </SwiperSlide>
                     })
                 }

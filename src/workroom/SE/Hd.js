@@ -1,5 +1,7 @@
 import React from 'react'
 import Resist from './resist'
+import gnbdb from '../../data/gnb.json'
+
 
 
 
@@ -14,13 +16,18 @@ function HD() {
                     </a>
                 </h1>
                 <ul id="gnb" className='d-flex justify-content-center'>
-                    <li><a href="#">구독</a></li>
-                    <li><a href="#">전체상품</a></li>
-                    <li><a href="#">베스트</a></li>
-                    <li><a href="#">이벤트</a></li>
-                    <li><a href="#">Q & A</a></li>
+                    {
+                        gnbdb.gnb.map((v, i) => {
+                            return (
+                                <li key={i}><a href={v.href}>{v.gnbtext}</a></li>
+                            )
+                        })
+                    }
+
+
                 </ul>
                 <Resist></Resist>
+
 
             </div>
         </header>

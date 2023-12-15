@@ -1,0 +1,24 @@
+{
+    "gnb": [
+        {
+            "gnbtext": "구독",
+            "href": "#"
+        },
+        {
+            "gnbtext": "전체상품",
+            "href": "#"
+        },
+        {
+            "gnbtext": "베스트",
+            "href": "#"
+        },
+        {
+            "gnbtext": "이벤트",
+            "href": "#"
+        },
+        {
+            "gnbtext": "Q & A",
+            "href": "#"
+        }
+    ]
+}
