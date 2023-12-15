@@ -10,6 +10,8 @@ import 'swiper/css/effect-fade';
 
 
 
+
+
 export default (props) => {
     return (
         <div>
@@ -33,11 +35,12 @@ export default (props) => {
                             background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
                         }} key={idx}>
                             <div className='effecttext'>
-                                <strong>{`${el.strong}`}</strong>
-                                <p>{`${el.Mtext}`}</p>
-                            </div>
 
-                        </SwiperSlide>
+                                <strong>{el.strong}</strong>
+                                <p>{el.Mtext}</p>
+                            </div >
+
+                        </SwiperSlide >
                     })
                 }
 
@@ -47,7 +50,7 @@ export default (props) => {
 
 
 
-            </Swiper>
-        </div>
+            </Swiper >
+        </div >
     );
 };
