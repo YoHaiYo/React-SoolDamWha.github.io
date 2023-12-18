@@ -1,5 +1,5 @@
 {
-    "gnb": [
+    "gnbko": [
         {
             "gnbtext": "구독",
             "href": "#"
@@ -14,6 +14,28 @@
         },
         {
             "gnbtext": "이벤트",
+            "href": "#"
+        },
+        {
+            "gnbtext": "Q & A",
+            "href": "#"
+        }
+    ],
+    "gnben": [
+        {
+            "gnbtext": "Subscribe",
+            "href": "#"
+        },
+        {
+            "gnbtext": "Product",
+            "href": "#"
+        },
+        {
+            "gnbtext": "Best",
+            "href": "#"
+        },
+        {
+            "gnbtext": "Event",
             "href": "#"
         },
         {
