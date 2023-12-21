@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectFade, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
+import mainS from '../../data/MainSwiper.json'
 
 
 
@@ -12,7 +13,7 @@ import 'swiper/css/effect-fade';
 
 
 
-export default (props) => {
+export default () => {
     return (
         <div>
             <Swiper id='promotionSwiper'
@@ -30,14 +31,14 @@ export default (props) => {
 
             >
                 {
-                    props.datasrc.map((el, idx) => {
+                    mainS.mainbanner.map((el, idx) => {
                         return <SwiperSlide style={{
                             background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
                         }} key={idx}>
                             <div className='effecttext'>
 
-                                <strong>{el.strong}</strong>
-                                <p>{el.Mtext}</p>
+                                <strong>{mainS.effecttext[idx].strong}</strong>
+                                <p>{mainS.effecttext[idx].Mtext}</p>
                             </div >
 
                         </SwiperSlide >
