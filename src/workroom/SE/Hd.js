@@ -1,6 +1,6 @@
 import React from 'react'
 import Resist from './resist'
-import gnbdb from '../../data/gnb.json'
+import Gnb from './../../data/MainSwiper.json'
 
 
 
@@ -17,7 +17,7 @@ function HD() {
                 </h1>
                 <ul id="gnb" className='d-flex justify-content-center'>
                     {
-                        gnbdb.gnbko.map((v, i) => {
+                        Gnb.gnbko.map((v, i) => {
                             return (
                                 <li key={i}><a href={v.href}>{v.gnbtext}</a></li>
                             )

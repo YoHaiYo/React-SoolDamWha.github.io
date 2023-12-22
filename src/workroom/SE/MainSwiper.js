@@ -31,14 +31,14 @@ export default () => {
 
             >
                 {
-                    mainS.mainbanner.map((el, idx) => {
+                    mainS.mainbannerko.map((el, idx) => {
                         return <SwiperSlide style={{
                             background: `url(/assets/img/swiper_img/${el.background}) no-repeat center`, height: "480px", backgroundSize: "auto 100%"
                         }} key={idx}>
                             <div className='effecttext'>
 
-                                <strong>{mainS.effecttext[idx].strong}</strong>
-                                <p>{mainS.effecttext[idx].Mtext}</p>
+                                <strong>{el.strong}</strong>
+                                <p>{el.Mtext}</p>
                             </div >
 
                         </SwiperSlide >
