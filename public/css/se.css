@@ -243,6 +243,10 @@
   position: absolute;
   top: 2% !important;
   right: 5% !important;
+  z-index: 10000000;
+  font-family: Spoqa Han Sans Neo !important;
+  color: black;
+  font-size: 14px;
 
 }
 

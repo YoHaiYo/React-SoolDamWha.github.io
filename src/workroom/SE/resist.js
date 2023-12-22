@@ -1,30 +1,22 @@
 import React from 'react'
-import signcont from '../../data/MainSwiper.json'
 
 function Resist() {
     return (
         <div>
             <ul id="login" className='d-flex resistabs'>
-                {
-                    signcont.resistko.map((el, idx) => {
-                        return (
-                            <li key={idx} className='me-5'><a href={el.href}>{el.cont}</a></li>
-                        )
-                    })
-                }
+                <li className='me-5'><a href="#">로그인</a></li>
+                <li className='me-5'><a href="#">회원가입</a></li>
 
+                <li>
 
-
-
-
+                    <select>
+                        <option value="en">English</option>
+                        <option value="ko" selected>한국어</option>
+                    </select>
+                </li>
             </ul>
         </div>
     )
 }
 
 export default Resist
-
-
-
-
-
