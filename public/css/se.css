@@ -250,6 +250,18 @@
 
 }
 
+#login li {
+  list-style: none;
+}
+
+#login li a {
+  text-decoration: none;
+}
+
+#languageSelect {
+  height: 25px;
+}
+
 
 
 
