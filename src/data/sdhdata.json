@@ -1,5 +1,5 @@
-{   
-    "ko" : {
+{
+    "ko": {
         "header": {
             "register": [
                 {
@@ -37,17 +37,17 @@
                 {
                     "background": "event1.png",
                     "strong": "첫 구독은 10% 할인!",
-                    "Mtext": "신규 가입 혜택 받고 소믈리에가 엄선한 전통주를 매월 경험하세요."
+                    "Mtext": "신규 가입 혜택 받고 | 소믈리에가 엄선한 전통주를 매월 경험하세요."
                 },
                 {
                     "background": "event2.png",
                     "strong": "첫 구매시 샘플 술 증정",
-                    "Mtext": "신규 가입하고 궁금했던 술 체험해보세요"
+                    "Mtext": "신규 가입하고 | 궁금했던 술 체험해보세요"
                 },
                 {
                     "background": "event3.png",
                     "strong": "리뷰 쓰면 쌓이는 포인트!",
-                    "Mtext": "후기 인증시 2,000원 적립"
+                    "Mtext": "후기 인증시 | 2,000원 적립"
                 }
             ]
         },
@@ -65,62 +65,58 @@
                 "nm": "청주 담화박스"
             }
         ],
-        
-          "bestswiper": [
-              {
-                  "picktitle": "하늘 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
-              },
-              {
-                  "picktitle": "하늘 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
-              },
-              {
-                  "picktitle": "하늘 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
-              },
-              {
-                  "picktitle": "하늘 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
-              },
-              {
-                  "picktitle": "구름을 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
-              },
-              {
-                  "picktitle": "구름을 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
-              },
-              {
-                  "picktitle": "구름을 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
-              },
-              {
-                  "picktitle": "구름을 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
-              },
-              {
-                  "picktitle": "구름을 벗삼아",
-                  "hashtag": "#부드러운 #고급막걸리",
-                  "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
-              }
-              
-          ],
-        
-        
-          "product": [
+        "bestswiper": [
+            {
+                "picktitle": "하늘 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
+            },
+            {
+                "picktitle": "하늘 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
+            },
+            {
+                "picktitle": "하늘 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
+            },
+            {
+                "picktitle": "하늘 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
+            },
+            {
+                "picktitle": "구름을 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
+            },
+            {
+                "picktitle": "구름을 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
+            },
+            {
+                "picktitle": "구름을 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
+            },
+            {
+                "picktitle": "구름을 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
+            },
+            {
+                "picktitle": "구름을 벗삼아",
+                "hashtag": "#부드러운 #고급막걸리",
+                "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
+            }
+        ],
+        "product": [
             {
                 "categorytitle": "담화박스",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set01.jpg",
@@ -128,21 +124,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "청주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
@@ -150,21 +146,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "과실주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
@@ -172,21 +168,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "증류주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
@@ -194,21 +190,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "탁주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju1.jpg",
@@ -216,21 +212,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju2.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "술잔",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
@@ -238,22 +234,20 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             }
-            
-            
         ]
     },
-    "en" : {        
+    "en": {
         "header": {
             "register": [
                 {
@@ -291,17 +285,17 @@
                 {
                     "background": "event1.png",
                     "strong": "10% Sale For First Subs!",
-                    "Mtext": ""
+                    "Mtext": "Receive new subscription benefits | Experience traditional liquor carefully selected by a sommelier every month."
                 },
                 {
                     "background": "event2.png",
                     "strong": "Beginner For Sample Liquid",
-                    "Mtext": ""
+                    "Mtext": "Sign up as a new | Experience the alcohol you have been curious about"
                 },
                 {
                     "background": "event3.png",
                     "strong": "Review For Your Accumulate",
-                    "Mtext": ""
+                    "Mtext": "When verifying a review | Earn 2,000 won"
                 }
             ]
         },
@@ -319,62 +313,58 @@
                 "nm": "Cheongju Box"
             }
         ],
-        
-          "bestswiper": [
-              {
-                  "picktitle": "as friend of sky",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
-              },
-              {
-                  "picktitle": "as friend of sky",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
-              },
-              {
-                  "picktitle": "as friend of sky",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
-              },
-              {
-                  "picktitle": "as friend of sky",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
-              },
-              {
-                  "picktitle": "as friend of cloud",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
-              },
-              {
-                  "picktitle": "as friend of cloud",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
-              },
-              {
-                  "picktitle": "as friend of cloud",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
-              },
-              {
-                  "picktitle": "as friend of cloud",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
-              },
-              {
-                  "picktitle": "as friend of cloud",
-                  "hashtag": "#Soft #high-end makgeolli",
-                  "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
-              }
-              
-          ],
-        
-        
-          "product": [
+        "bestswiper": [
+            {
+                "picktitle": "as friend of sky",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju01.jpg"
+            },
+            {
+                "picktitle": "as friend of sky",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju02.jpg"
+            },
+            {
+                "picktitle": "as friend of sky",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju03.jpg"
+            },
+            {
+                "picktitle": "as friend of sky",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju04.jpg"
+            },
+            {
+                "picktitle": "as friend of cloud",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju05.jpg"
+            },
+            {
+                "picktitle": "as friend of cloud",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju06.jpg"
+            },
+            {
+                "picktitle": "as friend of cloud",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju07.jpg"
+            },
+            {
+                "picktitle": "as friend of cloud",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju08.jpg"
+            },
+            {
+                "picktitle": "as friend of cloud",
+                "hashtag": "#Soft #high-end makgeolli",
+                "imgsrc": "/assets/img/cheongju/cheongju09.jpg"
+            }
+        ],
+        "product": [
             {
                 "categorytitle": "DamHwa Box",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_set.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set01.jpg",
@@ -382,21 +372,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "set",
                         "imgsrc": "/assets/img/set/set02.jpg",
                         "productName": "Winter Soju",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "청주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_cheongju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju01.jpg",
@@ -404,21 +394,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "cheongju",
                         "imgsrc": "/assets/img/cheongju/cheongju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "과실주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_gwashilju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju01.jpg",
@@ -426,21 +416,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "gwashilju",
                         "imgsrc": "/assets/img/gwashilju/gwashilju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "증류주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_jeungryuju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju01.jpg",
@@ -448,21 +438,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "jeungryuju",
                         "imgsrc": "/assets/img/jeungryuju/jeungryuju02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "탁주",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_takju.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju1.jpg",
@@ -470,21 +460,21 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "takju",
                         "imgsrc": "/assets/img/takju/takju2.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             },
             {
                 "categorytitle": "술잔",
                 "imgsrc": "/assets/img/soolcatecoryicon/icon_merchandise.png",
-                "productinfo":[
+                "productinfo": [
                     {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise01.jpg",
@@ -492,20 +482,17 @@
                         "productPrice": "12000원",
                         "starNum": 4,
                         "desc": "달콤한 샤인머스켓 향이 듬뿍~"
-                      },   
-                      {
+                    },
+                    {
                         "categorydata": "merchandise",
                         "imgsrc": "/assets/img/merchandise/merchandise02.jpg",
                         "productName": "겨울소주",
                         "productPrice": "12000원",
                         "starNum": 3,
                         "desc": "겨울을 머금은 그맛..!"
-                      }
+                    }
                 ]
             }
-            
-            
         ]
     }
-
 }
