@@ -9,7 +9,7 @@ import React from 'react';
 export default (props) => {
     return (
         <div>
-            <Swiper id='promotionSwiper'
+            <Swiper id='promotionSwiper' style={{ marginTop: "240px" }}
                 modules={[EffectFade, Autoplay]} effect="fade"
                 loop={true}
                 autoplay={{

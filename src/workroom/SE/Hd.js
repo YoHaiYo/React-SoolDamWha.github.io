@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 // import Resist from './resist'
 // import gnbdb from '../../data/gnb.json'
 
@@ -6,12 +6,14 @@ import React from 'react'
 
 
 
+
 function HD(props) {
+
     return (
-        <header id="hd" className='d-flex justify-content-center align-items-center fixed-top bg-white pt-5 border-bottom position-relative'>
+        <header id="hd" className='fixed-top bg-white border-bottom'>
             <div className='text-center container-lg'>
                 <h1 id='Logo'>
-                    <a href="#">
+                    <a href="/">
                         <img src="/assets/img/icon/hd_logo.png" alt="로고" />
                     </a>
                 </h1>
@@ -26,6 +28,8 @@ function HD(props) {
 
 
                 </ul>
+
+
                 {/* <Resist></Resist> */}
 
 
